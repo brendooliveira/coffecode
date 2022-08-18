@@ -2,8 +2,6 @@
   "name": "coffee/code-framework",
   "type": "project",
   "description": "The Coffe Code Framework.",
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "keywords": ["framework", "coffecode"],
   "license": "MIT",
   "authors": [
@@ -41,5 +39,7 @@
     "coffeecode/paginator": "1.0.7",
     "coffeecode/router": "1.0.8",
     "symfony/var-dumper": "5.4.x-dev"
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
