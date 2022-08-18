@@ -2,21 +2,21 @@
     'root' => array(
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'type' => 'library',
+        'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '1ae20ff8e722284b0f92774385c57c5444b37987',
-        'name' => 'coffee/code-1.0',
+        'reference' => '7924a22b385c052874921dc7c8005a754bc67c08',
+        'name' => 'coffee/code-framework',
         'dev' => true,
     ),
     'versions' => array(
-        'coffee/code-1.0' => array(
+        'coffee/code-framework' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'type' => 'library',
+            'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '1ae20ff8e722284b0f92774385c57c5444b37987',
+            'reference' => '7924a22b385c052874921dc7c8005a754bc67c08',
             'dev_requirement' => false,
         ),
         'coffeecode/cropper' => array(

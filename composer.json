@@ -1,7 +1,10 @@
 {
   "name": "coffee/code-framework",
-  "description": "Framework Coffe Code PHP 1.0",
-  "minimum-stability": "stable",
+  "type": "project",
+  "description": "The Coffe Code Framework.",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "keywords": ["framework", "coffecode"],
   "license": "MIT",
   "authors": [
     {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3fd611b56384a2fd7488b78702029d0d",
+    "content-hash": "fa9a3db566da042d3334b72f5237e33d",
     "packages": [
         {
             "name": "coffeecode/cropper",
@@ -842,12 +842,11 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
-        "league/plates": 15,
         "symfony/var-dumper": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^7.4",
