@@ -1,8 +1,13 @@
 {
   "name": "coffee/code-1.0",
-  "description": "Framework PHP 1.0",
-  "minimum-stability": "stable",
+  "description": "Framework Coffe Code PHP 1.0",
+  "license": "MIT",
   "authors": [
+    {
+      "name": "Robson V. Leite",
+      "email": "cursos@upinside.com.br",
+      "role": "Developer"
+    },
     {
       "name": "Brendo O O santos",
       "email": "brendo.dev@outlook.com",

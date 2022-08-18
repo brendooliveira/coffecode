@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '1ae20ff8e722284b0f92774385c57c5444b37987',
         'name' => 'coffee/code-1.0',
         'dev' => true,
     ),
     'versions' => array(
         'coffee/code-1.0' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '1ae20ff8e722284b0f92774385c57c5444b37987',
             'dev_requirement' => false,
         ),
         'coffeecode/cropper' => array(
