@@ -1,9 +1,10 @@
 <?php
 /**
  * DATABASE
- */
-if (strpos($_SERVER['HTTP_HOST'], "localhost")) {
+*/
 
+
+if ($_SERVER['HTTP_HOST'] == "localhost") {
     define("CONF_DB_HOST", "localhost");
     define("CONF_DB_USER", "root");
     define("CONF_DB_PASS", "");
@@ -21,8 +22,8 @@ if (strpos($_SERVER['HTTP_HOST'], "localhost")) {
 /**
  * PROJECT URLs
  */
-define("CONF_URL_BASE", "https://www.coffecode.com.br");
-define("CONF_URL_TEST", "https://www.localhost/_coffecode");
+define("CONF_URL_BASE", "https://coffecode.com.br");
+define("CONF_URL_TEST", "https://localhost/coffecode");
 
 define("BOT_TELEGRAM_TOKEN", "5483687962:AAH-H1HFd9jVcmOpCHjleiRq6R47RaVDudA");
 define("ID_CHANEL_TELEGRAN", "@LogsMecadoDeTerras");
