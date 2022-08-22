@@ -38,7 +38,8 @@
     "coffeecode/optimizer": "2.0.2",
     "coffeecode/paginator": "1.0.7",
     "coffeecode/router": "1.0.8",
-    "symfony/var-dumper": "5.4.x-dev"
+    "symfony/var-dumper": "5.4.x-dev",
+    "filp/whoops": "2.14.5" 
   },
   "minimum-stability": "dev",
   "prefer-stable": true

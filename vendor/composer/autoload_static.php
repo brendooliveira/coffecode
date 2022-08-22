@@ -25,6 +25,7 @@ class ComposerStaticInit21d4ae824f494004a6d1a2fa05726a75
     public static $prefixLengthsPsr4 = array (
         'W' => 
         array (
+            'Whoops\\' => 7,
             'WebPConvert\\' => 12,
         ),
         'S' => 
@@ -36,6 +37,7 @@ class ComposerStaticInit21d4ae824f494004a6d1a2fa05726a75
         ),
         'P' => 
         array (
+            'Psr\\Log\\' => 8,
             'PHPMailer\\PHPMailer\\' => 20,
         ),
         'L' => 
@@ -57,6 +59,10 @@ class ComposerStaticInit21d4ae824f494004a6d1a2fa05726a75
     );
 
     public static $prefixDirsPsr4 = array (
+        'Whoops\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
         'WebPConvert\\' => 
         array (
             0 => __DIR__ . '/..' . '/rosell-dk/webp-convert/src',
@@ -76,6 +82,10 @@ class ComposerStaticInit21d4ae824f494004a6d1a2fa05726a75
         'Source\\' => 
         array (
             0 => __DIR__ . '/../..' . '/source',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
         'PHPMailer\\PHPMailer\\' => 
         array (

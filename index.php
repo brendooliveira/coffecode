@@ -1,8 +1,6 @@
 <?php
 ob_start();
-
 require __DIR__ . "/vendor/autoload.php";
-
 
 /**
  * BOOTSTRAP
@@ -10,6 +8,12 @@ require __DIR__ . "/vendor/autoload.php";
 
 use CoffeeCode\Router\Router;
 use Source\Core\Session;
+use Source\Support\Debug;
+
+// START DEBUG
+$debug = new Debug;
+$debug->render();
+// END DEBUG
 
 
 $session = new Session();
@@ -67,5 +71,6 @@ $route->dispatch();
 if ($route->error()) {
     $route->redirect("/ops/{$route->error()}");
 }
+
 
 ob_end_flush();

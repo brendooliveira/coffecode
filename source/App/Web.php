@@ -39,7 +39,6 @@ class Web extends Controller
         //$telegram = new Bot(BOT_TELEGRAM_TOKEN);
         //$telegram->sendMessage(ID_CHANEL_TELEGRAN,"<b>✅<code>OLA MUNDO</code></b>","HTML");
 
-
         echo $this->view->render("home", [
             "head" => $head
         ]);
