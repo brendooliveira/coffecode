@@ -3,19 +3,53 @@
  * DATABASE
 */
 
+//define("DATA_LAYER_CONFIG", [
+//    "driver" => "pgsql",
+//    "host" => "localhost",
+//    "port" => "5432",
+//    "dbname" => "datalayer",
+//    "username" => "postgres",
+//    "passwd" => "",
+//    "options" => [
+//        PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
+//        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+//        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ,
+//        PDO::ATTR_CASE => PDO::CASE_NATURAL
+//    ],
+//]);
+
 
 if ($_SERVER['HTTP_HOST'] == "localhost") {
-    define("CONF_DB_HOST", "localhost");
-    define("CONF_DB_USER", "root");
-    define("CONF_DB_PASS", "");
-    define("CONF_DB_NAME", "coffecode");
+    define("DATA_LAYER_CONFIG", [
+        "driver" => "mysql",
+        "host" => "localhost",
+        "port" => "3306",
+        "dbname" => "coffecode",
+        "username" => "root",
+        "passwd" => "",
+        "options" => [
+            PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ,
+            PDO::ATTR_CASE => PDO::CASE_NATURAL
+        ]
+    ]);
 }else{
-    define("CONF_DB_HOST", "localhost");
-    define("CONF_DB_USER", "--");
-    define("CONF_DB_PASS", "--");
-    define("CONF_DB_NAME", "--");
+    define("DATA_LAYER_CONFIG", [
+        "driver" => "mysql",
+        "host" => "localhost",
+        "port" => "3306",
+        "dbname" => "coffecode",
+        "username" => "root",
+        "passwd" => "",
+        "options" => [
+            PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ,
+            PDO::ATTR_CASE => PDO::CASE_NATURAL
+        ]
+    ]);
 }
-
 
 
 

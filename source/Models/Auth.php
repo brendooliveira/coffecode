@@ -2,23 +2,25 @@
 
 namespace Source\Models;
 
-use Source\Core\Model;
+use CoffeeCode\DataLayer\DataLayer;
+
 use Source\Core\Session;
 use Source\Core\View;
 use Source\Support\Email;
+
 
 /**
  * Class Auth
  * @package Source\Models
  */
-class Auth extends Model
+class Auth extends DataLayer
 {
     /**
      * Auth constructor.
      */
     public function __construct()
     {
-        parent::__construct("users", ["id"], ["email", "password"]);
+        parent::__construct("users", ["email", "password"]);
     }
 
     /**
@@ -208,4 +210,6 @@ class Auth extends Model
         $user->save();
         return true;
     }
+
+    
 }

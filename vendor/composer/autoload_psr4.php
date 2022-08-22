@@ -20,5 +20,6 @@ return array(
     'CoffeeCode\\Router\\' => array($vendorDir . '/coffeecode/router/src'),
     'CoffeeCode\\Paginator\\' => array($vendorDir . '/coffeecode/paginator/src'),
     'CoffeeCode\\Optimizer\\' => array($vendorDir . '/coffeecode/optimizer/src'),
+    'CoffeeCode\\DataLayer\\' => array($vendorDir . '/coffeecode/datalayer/src'),
     'CoffeeCode\\Cropper\\' => array($vendorDir . '/coffeecode/cropper/src'),
 );

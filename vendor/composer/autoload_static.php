@@ -54,6 +54,7 @@ class ComposerStaticInit21d4ae824f494004a6d1a2fa05726a75
             'CoffeeCode\\Router\\' => 18,
             'CoffeeCode\\Paginator\\' => 21,
             'CoffeeCode\\Optimizer\\' => 21,
+            'CoffeeCode\\DataLayer\\' => 21,
             'CoffeeCode\\Cropper\\' => 19,
         ),
     );
@@ -114,6 +115,10 @@ class ComposerStaticInit21d4ae824f494004a6d1a2fa05726a75
         'CoffeeCode\\Optimizer\\' => 
         array (
             0 => __DIR__ . '/..' . '/coffeecode/optimizer/src',
+        ),
+        'CoffeeCode\\DataLayer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/coffeecode/datalayer/src',
         ),
         'CoffeeCode\\Cropper\\' => 
         array (
