@@ -44,10 +44,6 @@ $route->group(null);
 $route->get("/confirma", "Web:confirm");
 $route->get("/obrigado/{email}", "Web:success");
 
-//PLUGINS
-$route->group("/plugins");
-$route->get("/", "Plugins:home");
-$route->post("/send-images", "Plugins:images");
 
 //APP
 $route->group("/app");

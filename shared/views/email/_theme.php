@@ -50,9 +50,6 @@
             </div>
             <div class="footer">
                 <p><?= CONF_SITE_NAME; ?> - <?= CONF_SITE_TITLE; ?></p>
-                <p><?= CONF_SITE_ADDR_STREET; ?>
-                    , <?= CONF_SITE_ADDR_NUMBER; ?><?= (CONF_SITE_ADDR_COMPLEMENT ? ", " . CONF_SITE_ADDR_COMPLEMENT : ""); ?></p>
-                <p><?= CONF_SITE_ADDR_CITY; ?>/<?= CONF_SITE_ADDR_STATE; ?> - <?= CONF_SITE_ADDR_ZIPCODE; ?></p>
             </div>
         </td>
     </tr>

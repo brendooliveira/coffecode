@@ -31,27 +31,8 @@
     --gradient-yellow: linear-gradient(to right, #FCE38A 0%, #F38181 50%, #FCE38A 100%);
 
     --radius-normal: 5px;
-    --radius-medium: 10px;
-    --radius-large: 20px;
-    --radius-round: 50%;
 
-    --index-back: -1;
-    --index-fold: 2;
-    --index-menu: 3;
     --index-modal: 4;
-}
-
-/*ICONS NORMALIZE*/
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-    position: relative !important;
-    top: .125em !Important;
-    margin-right: .4em !Important;
-}
-
-.icon-notext:before {
-    top: 0;
-    margin-right: 0 !important;;
 }
 
 /*DEFAULT LOAD*/

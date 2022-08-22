@@ -2,6 +2,10 @@
 
 namespace Source\Support\Telegram;
 
+/**
+ * @author Brendo O 0 Santos <brendo.dev@outlook.com>
+ * @package Source\Support\Telegram
+ */
 class Bot
 {
 
