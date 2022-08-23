@@ -14,6 +14,7 @@ return array(
     'Source\\' => array($baseDir . '/source'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
+    'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'League\\Plates\\' => array($vendorDir . '/league/plates/src'),
     'ImageMimeTypeGuesser\\' => array($vendorDir . '/rosell-dk/image-mime-type-guesser/src'),
     'CoffeeCode\\Uploader\\' => array($vendorDir . '/coffeecode/uploader/src'),

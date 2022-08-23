@@ -28,7 +28,7 @@
 
     <?= $head ?>
 </head>
-<body>
+<body class="bg-dark">
 
 <div class="ajax_load">
     <div class="ajax_load_box">

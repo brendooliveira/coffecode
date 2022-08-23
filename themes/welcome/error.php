@@ -2,12 +2,12 @@
 
 $v->layout("_theme"); ?>
 
-<article class="container">
+<article class="container mt-5">
 
         <header class="text-center">
-            <p class="error">&bull;<?= $error->code; ?>&bull;</p>
-            <h1><?= $error->title; ?></h1>
-            <p><?= $error->message; ?></p>
+            <p class="error text-white">&bull;<?= $error->code; ?>&bull;</p>
+            <h1 class="text-white"><?= $error->title; ?></h1>
+            <p class="text-white"><?= $error->message; ?></p>
 
             <?php if ($error->link): ?>
                 <a class="btn btn-primary"

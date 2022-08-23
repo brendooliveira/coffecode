@@ -7,12 +7,23 @@ require __DIR__ . "/vendor/autoload.php";
 */
 
 use CoffeeCode\Router\Router;
+use Monolog\Handler\StreamHandler;
+use Psr\Log\LogLevel;
 use Source\Core\Session;
 use Source\Support\Debug;
 
+
 // START DEBUG
-$debug = new Debug;
-$debug->render();
+
+$debug = new Debug('name-debug');
+$debug->pushHandler(new StreamHandler('name-this-log.log', LogLevel::DEBUG));
+
+// add records to the log
+$debug->warning('name-debug-warning-host', ["server" => $_SERVER["HTTP_HOST"]]);
+$debug->error('name-debug-error-request', ["request" => $_SERVER["REQUEST_URI"]]);
+
+//DISPLAY WHOOPS
+$debug->display();
 // END DEBUG
 
 

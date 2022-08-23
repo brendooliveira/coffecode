@@ -40,6 +40,10 @@ class ComposerStaticInit21d4ae824f494004a6d1a2fa05726a75
             'Psr\\Log\\' => 8,
             'PHPMailer\\PHPMailer\\' => 20,
         ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
+        ),
         'L' => 
         array (
             'League\\Plates\\' => 14,
@@ -91,6 +95,10 @@ class ComposerStaticInit21d4ae824f494004a6d1a2fa05726a75
         'PHPMailer\\PHPMailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
         'League\\Plates\\' => 
         array (

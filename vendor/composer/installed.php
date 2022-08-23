@@ -3,7 +3,7 @@
         'name' => 'coffee/code-framework',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'fc652915551c0988b8aa53f95edd6166d6ee2645',
+        'reference' => '8565e95ff4def17f4ad4ffe819686a73f5f80d01',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'coffee/code-framework' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'fc652915551c0988b8aa53f95edd6166d6ee2645',
+            'reference' => '8565e95ff4def17f4ad4ffe819686a73f5f80d01',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -91,6 +91,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'monolog/monolog' => array(
+            'pretty_version' => '2.x-dev',
+            'version' => '2.9999999.9999999.9999999-dev',
+            'reference' => '6a28e9d41a64a1a909d49f63f70af0115c239cfd',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../monolog/monolog',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'phpmailer/phpmailer' => array(
             'pretty_version' => 'v6.6.4',
             'version' => '6.6.4.0',
@@ -108,6 +117,12 @@
             'install_path' => __DIR__ . '/../psr/log',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'psr/log-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+            ),
         ),
         'rosell-dk/image-mime-type-guesser' => array(
             'pretty_version' => '0.3.1',
