@@ -3,36 +3,37 @@
 namespace Source\Support;
 
 use DateTimeZone;
+use Exception;
 use Monolog\Logger;
+use Whoops\Handler\PrettyPageHandler;
 use Whoops\Run;
 
 /**
  * @author Brendo O 0 Santos <brendo.dev@outlook.com>
  * @package Source\Support
  */
-class Debug extends Logger
+class Debug extends Logger 
 {
     /** @var Run */
     protected $whoops;
 
-    public function __construct(string $name = null, array $handlers = [], array $processors = [], ?DateTimeZone $timezone = null)
+    public function __construct()
+    {
+        $this->whoops = new Run();
+    }
+
+    public function Logger(string $name = null, array $handlers = [], array $processors = [], ?DateTimeZone $timezone = null)
     {
         parent::__construct($name,$handlers,$processors,$timezone);
     }
 
     public function display()
     {
-        ini_set('display_errors', '1');
-        ini_set('display_startup_errors', '1');
-        error_reporting(E_ALL);
-
-        $this->whoops = new Run();
-
-        $this->whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
+        $this->whoops->pushHandler(new PrettyPageHandler);
         $this->whoops->register();  
         try {
-        
-        } catch (Exception $e) {
+            return;
+        }catch (Exception $e) {
             echo $e->getMessage();
         }
     }

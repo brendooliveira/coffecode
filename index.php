@@ -15,7 +15,8 @@ use Source\Support\Debug;
 
 // START DEBUG
 
-$debug = new Debug('name-debug');
+$debug = new Debug;
+$debug->Logger('name-debug');
 $debug->pushHandler(new StreamHandler('name-this-log.log', LogLevel::DEBUG));
 
 // add records to the log
