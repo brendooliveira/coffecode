@@ -34,7 +34,6 @@ class ComposerStaticInit21d4ae824f494004a6d1a2fa05726a75
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\VarDumper\\' => 28,
             'Source\\' => 7,
-            'SamDark\\Sitemap\\' => 16,
         ),
         'P' => 
         array (
@@ -88,10 +87,6 @@ class ComposerStaticInit21d4ae824f494004a6d1a2fa05726a75
         'Source\\' => 
         array (
             0 => __DIR__ . '/../..' . '/source',
-        ),
-        'SamDark\\Sitemap\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/samdark/sitemap/src',
         ),
         'Psr\\Log\\' => 
         array (
