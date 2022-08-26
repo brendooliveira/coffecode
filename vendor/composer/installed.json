@@ -894,6 +894,69 @@
             "install-path": "../rosell-dk/webp-convert"
         },
         {
+            "name": "samdark/sitemap",
+            "version": "3.0.0.x-dev",
+            "version_normalized": "3.0.0.9999999-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/samdark/sitemap.git",
+                "reference": "2dc856a36d32a4d52fe0f678e649bde480192bd0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/samdark/sitemap/zipball/2dc856a36d32a4d52fe0f678e649bde480192bd0",
+                "reference": "2dc856a36d32a4d52fe0f678e649bde480192bd0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xmlwriter": "*",
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~7.1.5",
+                "vimeo/psalm": "*"
+            },
+            "time": "2021-07-02T17:25:33+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SamDark\\Sitemap\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru",
+                    "homepage": "http://rmcreative.ru/"
+                }
+            ],
+            "description": "Sitemap and sitemap index builder",
+            "homepage": "https://github.com/samdark/sitemap",
+            "keywords": [
+                "Sitemap"
+            ],
+            "support": {
+                "issues": "https://github.com/samdark/sitemap/issues",
+                "source": "https://github.com/samdark/sitemap"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/samdark",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/samdark",
+                    "type": "patreon"
+                }
+            ],
+            "install-path": "../samdark/sitemap"
+        },
+        {
             "name": "symfony/polyfill-mbstring",
             "version": "v1.26.0",
             "version_normalized": "1.26.0.0",

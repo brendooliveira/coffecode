@@ -3,7 +3,6 @@
 namespace Source\Models;
 
 use CoffeeCode\DataLayer\DataLayer;
-use Source\Support\Message;
 
 /**
  * FSPHP | Class User Active Record Pattern
@@ -13,15 +12,12 @@ use Source\Support\Message;
  */
 class User extends DataLayer
 {
-    /** @var Message|null */
-    public $message;
     /**
      * User constructor.
      */
     public function __construct()
     {
         parent::__construct("users", ["first_name", "last_name", "email", "password"]);
-        $this->message = new Message();
     }
 
     /**

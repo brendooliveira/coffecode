@@ -12,7 +12,6 @@ use Psr\Log\LogLevel;
 use Source\Core\Session;
 use Source\Support\Debug;
 
-
 // START DEBUG
 
 $debug = new Debug;
@@ -25,6 +24,7 @@ $debug->error('name-debug-error-request', ["request" => $_SERVER["REQUEST_URI"]]
 
 //DISPLAY WHOOPS
 $debug->display();
+
 // END DEBUG
 
 
