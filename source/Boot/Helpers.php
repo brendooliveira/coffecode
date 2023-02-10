@@ -40,7 +40,7 @@ function is_passwd(string $password): bool
  */
 function str_slug(string $string): string
 {
-    $string = filter_var(mb_strtolower($string), FILTER_SANITIZE_STRIPPED);
+    $string = filter_var(mb_strtolower($string), FILTER_SANITIZE_SPECIAL_CHARS);
     $formats = 'ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜüÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûýýþÿRr"!@#$%&*()_-+={[}]/?;:.,\\\'<>°ºª';
     $replace = 'aaaaaaaceeeeiiiidnoooooouuuuuybsaaaaaaaceeeeiiiidnoooooouuuyybyRr                                 ';
 
